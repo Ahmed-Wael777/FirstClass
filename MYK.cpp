@@ -12,13 +12,14 @@ public:
           return l*w;
     }
     int GetVolume() {
-
+      return l*w*h;
     }
 
 };
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    FirstClass mody;
+    cout<<mody.GetVolume();
 }
 
