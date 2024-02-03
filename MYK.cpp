@@ -9,7 +9,7 @@ private:
     int h =6;
 public:
     int GetArea() {
-
+          return l*w;
     }
     int GetVolume() {
 
